@@ -1,0 +1,115 @@
+/*头部*/
+#header {
+	height: 1rem;
+	background: #EF4949;
+}
+.header-set{
+	width: 1.4rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+#header a{
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 1rem;
+}
+.icon-pinglun{
+	color: #fff;
+}
+
+/*内容区域*/
+#wrapper {
+	top: 1rem;
+	background: #F7F7FB;
+}
+.person-photo{
+	height: 1.3rem;
+	background: #EF4949;
+	border-bottom: 0.01rem solid #F28E8D;
+	padding: 0 0.2rem;
+}
+.person-photo img{
+	width: 0.9rem;
+	height: 0.9rem;
+	float: left;
+}
+.person-photo:after{
+	display: block;
+	content: '积分:0';
+	font-size: 0.28rem;
+	color: #fff;
+	line-height: 1.38rem;
+	position: absolute;
+	left: 1.29rem;
+}
+.person-photo .huiyuan{
+	width: 1.72rem;
+	height: 0.46rem;
+	background: #DB3131;
+	border-radius:0.5rem;
+	float: right;
+	margin-top: 0.22rem;
+	position: relative;
+}
+.huiyuan img{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 0.03rem;top: 0;bottom: 0;
+	margin: auto;
+}
+.huiyuan span{
+	display: block;
+	font-size: 0.23rem;
+	color: #fff;
+	padding-left: 0.5rem;
+	line-height: 0.46rem;
+}
+.huiyuan span:after{
+	content: '>';
+	padding-left: 0.06rem;
+}
+.shop-order{
+	height: 3.2rem;
+	margin-top: 0.2rem;
+}
+.temai-order,.taobao-order{
+	height: 0.9rem;
+	background: #fff;
+	border-top: 0.01rem solid #E7E7E7;
+	border-bottom: 0.01rem solid #E7E7E7;
+}
+.show-order{
+	height: 1.4rem;
+	background: #fff;
+}
+
+.fun-exp{
+	height: 3.63rem;
+	margin-top: 0.18rem;
+	border-top: 0.01rem solid #DEDEE1;
+	border-bottom: 0.01rem solid #DEDEE1;
+	position: relative;
+}
+.fe-top{
+	width: 719rem;
+	height: 1.8rem;
+	border-bottom: 0.01rem solid #DEDEE1;
+	background: #fff;
+	position: absolute;
+	top: 0.02rem;
+}
+.fe-bottom{
+	width: 719rem;
+	height: 1.8rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+}
+/*.fe-top{
+	top: 0.02rem;
+}
+.fe-bottom{
+	bottom: 0;
+}*/
+

@@ -1,0 +1,296 @@
+/*通用样式*/
+body,p,pre,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,div {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    border: 0;
+}
+html {
+	-ms-touch-action: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 0.28rem;
+	font-family: ubuntu, helvetica, arial;
+	overflow: hidden;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+
+/*头部*/
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1.91rem;
+	background: #fff;
+}
+.header-top{
+	height: 1rem;
+	border-bottom: 0.02rem solid #F5F5F5;
+	position: relative;
+}
+.icon-pinglun{
+	display: block;
+	color: #2B2929;
+	position: absolute;
+	right: 0.2rem;top: 0;bottom: 0;
+	margin: auto;
+	line-height: 1rem;
+}
+.search{
+	width: 4.64rem;
+	height: 0.64rem;
+	background: #EFEDED;
+	border-radius: 0.5rem;
+	position: absolute;
+	top: 0.18rem;right: 0.84rem;
+	line-height: 0.64rem;
+}
+.search .icon-sousuolansousuo{
+	font-size: 0.28rem;
+	color: #FF4545;
+	margin-left: 0.98rem;
+}
+.icon-sousuolansousuo:after{
+	content: "妈妈喊你穿秋裤";
+	color: #B5B5B5;
+	padding-left: 0.28rem;
+}
+.header-top img{
+	width: 1.31rem;
+	height: 0.4rem;
+	position: absolute;
+	left: 0.2rem;top: 0;bottom: 0;
+	margin: auto;
+}
+.header-bottom{
+	height: 0.91rem;
+	border-bottom: 0.01rem solid #D5D5D5;
+	position: relative;
+	background: #ccc;
+}
+.tuijian{
+	width: 1.1rem;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	top: 0;left: 0;
+}
+.tuijian .xian{
+	width: 0.02rem;
+	height: 0.66rem;
+	background: #E8E8E8;
+	position: absolute;
+	right: 0;top: 0;bottom: 0;
+	margin: auto;
+}
+/*.tuijian a{
+	height: 100%;
+	display: inline-block;
+	color: #2B2929;
+	line-height: 0.91rem;
+	margin: auto;
+}
+.tuijian .active{
+	color: #FF4545;
+	border-bottom: 0.02rem solid #FF4545;
+}*/
+.pulldown{
+	width: 0.95rem;
+	height: 100%;
+	background: #fff;
+	position: absolute;
+	right: 0;top: 0;
+	text-align: center;
+	line-height: 0.91rem;
+}
+.icon-xiangxiajiantou{
+	display: inline-block;
+	/*animation: jiantou .5s forwards;*/
+}
+/*@keyframes jiantou{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-180deg);
+	}
+}*/
+
+
+/*滚动条*/
+#wrapper {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 1.91rem;
+	bottom: 1.09rem;
+	left: 0;
+	background: #F6F6F6;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+.banner a{
+	position: absolute;
+}
+.banner a img{
+	height: 2.48rem;
+}
+.sign{
+	height: 1.38rem;
+	margin-top: 0.36rem;
+}
+.sign a{
+	display: block;
+	width: 0.8rem;
+	height: 1.16rem;
+	position: relative;
+	float: left;
+	margin-right: 0.64rem;
+	overflow: hidden;
+}
+.sign-info img{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0;top: 0;
+}
+.sign-info span{
+	display: block;
+	font-size: 0.19rem;
+	color: #000000;
+	text-align: center;
+	line-height: 2.1rem;
+}
+.sign a:nth-child(1){
+	margin-left: 0.32rem;
+}
+.sign a:last-child{
+	margin: 0;
+}
+
+.tuijian-product{
+	width: 100%;
+	height: 5.72rem;
+}
+.pt{
+	height: 3.6rem;
+}
+.pt .pt-left{
+	width: 45.4166667%;
+	height: 100%;
+	float: left;
+}
+.pt .pt-right{
+	width: 54.5833333%;
+	height: 100%;
+	float: right;
+}
+.pt-right li{
+	width: 100%;
+	height: 1.79rem;
+}
+
+.pb{
+	width: 100%;
+	height: 2.1rem;
+	margin-top: 0.02rem;
+}
+.pb li{
+	height: 100%;
+	float: left;
+}
+.pb li:nth-child(1),.pb li:nth-child(3){
+	width: 1.79rem;
+	margin-right: 0.02rem;
+}
+.pb li:nth-child(2){
+	width: 1.78rem;
+	margin-right: 0.02rem;
+}
+.pb li:nth-child(4){
+	width: 1.78rem;
+}
+
+.temai-title{
+	width: 100%;
+	height: 0.67rem;
+	background: #F6F6F6;
+	position: relative;
+}
+.temai-title img{
+	width: 4.04rem;
+	height: 0.24rem;
+	position: absolute;
+	left: 0;top: 0;right: 0;bottom: 0;
+	margin: auto;
+}
+
+.temai-panel{
+	width: 100%;
+	height: auto;
+	padding: 0 0.03rem;
+}
+.temai-trade{
+	width: 100%;
+	height: 4.82rem;
+}
+.temai-trade a{
+	display: block;
+	width: 3.52rem;
+	height: 4.82rem;
+	float: left;
+}
+.temai-trade a img{
+	width: 3.52rem;
+	height: 4.82rem;
+}
+.temai-trade a:nth-child(1){
+	float: left;
+}
+.temai-trade a:nth-child(2){
+	float: right;
+}
+.position{
+	margin-top: 0.08rem;
+}
+
+
+/*底部选项卡*/
+.mui-active .mui-icon,.mui-active .mui-tab-label{  
+    color: #FF4545;                                       
+}
+

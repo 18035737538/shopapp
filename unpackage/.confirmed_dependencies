@@ -1,0 +1,75 @@
+{
+	"index.html": {
+		"resources": [
+			"images/user.png",
+			"css/login.css",
+			"js/shopapp.js",
+			"images/icon3.png",
+			"images/qq.png",
+			"images/pass.png",
+			"images/icon2.png",
+			"images/wx.png",
+			"images/icon4.png",
+			"images/yzm.png",
+			"images/icon1.png",
+			"js/zepto.min.js",
+			"css/iconfont.css",
+			"iconfont/iconfont.woff",
+			"images/more.png",
+			"reg.html",
+			"images/c3.png",
+			"css/main.css",
+			"images/c4.png",
+			"css/icon.css",
+			"images/b1.png",
+			"css/index.css",
+			"images/logo.png",
+			"js/mui.min.js",
+			"images/c1.png",
+			"images/c5.png",
+			"images/c2.png",
+			"css/mui.min.css",
+			"fonts/iconfont.ttf",
+			"images/cb.png",
+			"images/pt1.png",
+			"images/pt2.png",
+			"images/pt.png",
+			"images/pb2.png",
+			"images/pb3.png",
+			"images/pb.png",
+			"images/pb1.png",
+			"js/iscroll.js",
+			"js/index.js",
+			"images/b2.png",
+			"images/b5.png",
+			"images/b3.png",
+			"images/b4.png",
+			"images/temai.png",
+			"images/pic4.png",
+			"images/pic1.png",
+			"images/pic3.png",
+			"images/pic2.png"
+		],
+		"refer": [
+			"reg.html"
+		]
+	},
+	"reg.html": {
+		"resources": [
+			"js/swiper.jquery.min.js",
+			"js/swiper.jquery.js",
+			"images/icon5.png",
+			"css/reg.css",
+			"css/swiper.min.css",
+			"index.html",
+			"css/login.css",
+			"js/shopapp.js",
+			"js/zepto.min.js",
+			"css/iconfont.css",
+			"iconfont/iconfont.woff"
+		],
+		"refer": [
+			"index.html"
+		]
+	}
+}
